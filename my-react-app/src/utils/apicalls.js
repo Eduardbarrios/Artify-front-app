@@ -4,7 +4,7 @@
  * @returns {object} data, an object containing user information
 */
 class ApiManager {
- static BASE_URL = 'https://api.escuelajs.co/api/v1';
+ static BASE_URL = 'https://artyfiapi.azurewebsites.net/api';
  static async makeRequest(endPoint, httpMethod, headers, requestData){
 let url = `${this.BASE_URL}/${endPoint}`
   const requestOptions = {
